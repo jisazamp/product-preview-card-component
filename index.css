@@ -6,6 +6,7 @@
   --clr-white: hsl(0, 0%, 100%);
   --clr-aurometal-saurus: #6c7289;
   --clr-deep-aquamarine: #3d8168;
+  --clr-deep-aquamarine-hover: #1a4032;
   --ff-montserrat: 'Montserrat', sans-serif;
   --ff-fraunces: 'Fraunces', sans-serif;
 }
@@ -189,5 +190,12 @@ p {
     height: 48px;
     margin-top: 10px;
     margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+  .card-action:hover {
+    background-color: var(--clr-deep-aquamarine-hover);
+    color: white;
+    transition: background-color 200ms;
   }
 }
